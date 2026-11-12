@@ -1,0 +1,13 @@
+P1 - Terminal commands
+
+pwd                  
+mkdir WebDeLaB     
+cd Web_Dev_Project       
+mkdir assets            
+touch index.html            
+touch style.css      
+touch script.js         
+ls                     
+cd ..                     
+cd WebDevLaB      
+
