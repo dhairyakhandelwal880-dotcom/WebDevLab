@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhairya Khandelwal - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">&lt;/&gt; Dhairya</div>
+
+      <button class="menu-btn" id="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 1. Home Section -->
+  <section id="home" class="hero">
+    <div class="container hero-box">
+      <div class="profile-pic" aria-label="Dhairya Khandelwal Avatar">DK</div>
+      <div class="hero-text">
+        <h1>Hi, I'm Dhairya Khandelwal</h1>
+        <h3>First-Year Computer Science Student</h3>
+        <p>Welcome to my portfolio website! Explore my journey, skills, and projects.</p>
+        <div class="hero-btns">
+          <a href="#about" class="btn">About Me</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. About Me Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="card">
+        <p>
+          Hello! My name is <strong>Dhairya Khandelwal</strong> and I am a First-Year Computer Science student at Bosscoder School of Technology.
+          I am currently learning the basics of web development, programming, and software design.
+        </p>
+        <p>
+          My main areas of interest are <strong>Web Development</strong>, <strong>Python</strong>, and building simple tools that solve everyday problems.
+          My goal is to keep practicing coding every day and become a good full-stack developer.
+        </p>
+        <p>
+          In my free time, I enjoy reading, listening to music, photography, and travelling with friends and family.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Education Section -->
+  <section id="education" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="grid-3">
+        <div class="card">
+          <span class="year-tag">2026 - 2030</span>
+          <h3>Bosscoder School of Technology</h3>
+          <p><strong>Course:</strong> B.Tech in Computer Science</p>
+          <p><strong>Year:</strong> First Year</p>
+          <p>Learning HTML, CSS, JavaScript, Python, and Git.</p>
+        </div>
+
+        <div class="card">
+          <span class="year-tag">2024 - 2026</span>
+          <h3>Senior Secondary (Class 12)</h3>
+          <p><strong>Stream:</strong> Science (PCM + CS)</p>
+          <p>Studied Mathematics, Physics, Chemistry, and basic Python.</p>
+        </div>
+
+        <div class="card">
+          <span class="year-tag">2023 - 2024</span>
+          <h3>Secondary School (Class 10)</h3>
+          <p><strong>Subjects:</strong> General Studies &amp; Computer Basics</p>
+          <p>Participated in school science and computer club activities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Technical Skills</h3>
+
+          <div class="skill-item">
+            <div class="skill-label"><span>HTML</span><span>85%</span></div>
+            <div class="bar"><div class="fill" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-label"><span>CSS</span><span>80%</span></div>
+            <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-label"><span>JavaScript</span><span>70%</span></div>
+            <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-label"><span>Python</span><span>75%</span></div>
+            <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Non-Technical Skills</h3>
+
+          <div class="skill-item">
+            <div class="skill-label"><span>Communication</span><span>85%</span></div>
+            <div class="bar"><div class="fill" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-label"><span>Teamwork</span><span>90%</span></div>
+            <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-label"><span>Problem Solving</span><span>80%</span></div>
+            <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-label"><span>Time Management</span><span>75%</span></div>
+            <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Projects Section -->
+  <section id="projects" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="grid-3">
+        <div class="card project-card">
+          <div class="card-banner banner-blue">🅿️ OpenPark</div>
+          <h3>OpenPark</h3>
+          <p>A smart parking web app that helps drivers find nearby parking spots within 1 km.</p>
+          <p class="tech-text"><strong>Tech:</strong> Python, FastAPI, JavaScript, SQLite</p>
+          <button class="btn btn-small" onclick="showDetails('OpenPark: Built to help find parking within 1 km using FastAPI, SQLite FTS5, and MapLibre GL JS.')">
+            View Details
+          </button>
+        </div>
+
+        <div class="card project-card">
+          <div class="card-banner banner-green">📱 OpenPark Customer</div>
+          <h3>OpenPark Customer</h3>
+          <p>A mobile-friendly version of OpenPark focused on quick parking lookup and offline caching.</p>
+          <p class="tech-text"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+          <button class="btn btn-small" onclick="showDetails('OpenPark Customer: A simpler driver interface with offline caching and fast route ranking.')">
+            View Details
+          </button>
+        </div>
+
+        <div class="card project-card">
+          <div class="card-banner banner-purple">&lt;/&gt; MyPortfolio</div>
+          <h3>Personal Portfolio</h3>
+          <p>My first-year college web development project built using HTML, CSS, and JavaScript.</p>
+          <p class="tech-text"><strong>Tech:</strong> HTML5, CSS3, JavaScript</p>
+          <button class="btn btn-small" onclick="showDetails('Personal Portfolio: Includes sections for education, skills, projects, hobbies, dark mode, and form validation.')">
+            View Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Simple detail box shown when clicking View Details -->
+      <div id="project-detail-box" class="detail-box" style="display: none;">
+        <p id="project-detail-text"></p>
+        <button class="btn btn-small" onclick="closeDetails()">Close</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Hobbies and Interests Section -->
+  <section id="hobbies" class="section">
+    <div class="container">
+      <h2 class="section-title">Hobbies &amp; Interests</h2>
+      <div class="grid-4">
+        <div class="card center-text">
+          <div class="big-icon">📚</div>
+          <h3>Reading</h3>
+          <p>Reading tech articles and fiction books in my spare time.</p>
+        </div>
+
+        <div class="card center-text">
+          <div class="big-icon">📷</div>
+          <h3>Photography</h3>
+          <p>Taking photos of nature, streets, and sunsets on my phone.</p>
+        </div>
+
+        <div class="card center-text">
+          <div class="big-icon">🎵</div>
+          <h3>Music</h3>
+          <p>Listening to music while studying and coding.</p>
+        </div>
+
+        <div class="card center-text">
+          <div class="big-icon">✈️</div>
+          <h3>Travelling</h3>
+          <p>Exploring new places and trying different local food.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Achievements Section -->
+  <section id="achievements" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">Achievements</h2>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-banner banner-blue">📜 Certificate</div>
+          <h3>Web Development Project</h3>
+          <p><strong>Year:</strong> 2026</p>
+          <p>Built my personal portfolio website using HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-banner banner-purple">🏆 Hackathon</div>
+          <h3>Smart Mobility Hackathon</h3>
+          <p><strong>Year:</strong> 2026</p>
+          <p>Participated and built the OpenPark smart parking prototype.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-banner banner-green">🛠️ Workshop</div>
+          <h3>Git &amp; API Workshop</h3>
+          <p><strong>Year:</strong> 2026</p>
+          <p>Attended a college workshop on Git, GitHub, and basic REST APIs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>My Details</h3>
+          <p><strong>Email:</strong> <a href="mailto:dhairyakhandelwal880@gmail.com">dhairyakhandelwal880@gmail.com</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/dhairyakhandelwal880-dotcom" target="_blank">github.com/dhairyakhandelwal880-dotcom</a></p>
+          <p><strong>Location:</strong> India</p>
+        </div>
+
+        <div class="card">
+          <h3>Send a Message</h3>
+          <form id="contact-form" onsubmit="return validateForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your Email" />
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+            <p id="form-msg" class="form-msg"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Dhairya Khandelwal | Personal Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
